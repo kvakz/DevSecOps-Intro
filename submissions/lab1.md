@@ -69,4 +69,38 @@ Which of these are MISSING? (cross-reference Lecture 1 OWASP Top 10:2025 — A06
   - Title is clear (`feat(labN): <topic>` style)
   - No secrets/large temp files committed
   - Submission file at `submissions/labN.md` exists
-- Auto-fill verified: [x] Yes — PR description showed my template
+- Auto-fill verified: [x] Yes — PR description showed my template (https://github.com/kvakz/DevSecOps-Intro/pull/2)
+
+## GitHub Community
+
+### Engagement Proof
+- [x] Starred the main course repository
+- [x] Starred the simple-container-com/api project
+- [x] Followed the Professor (@Cre-eD) and TAs (@Naghme98, @pierrepicaud)
+- [x] Followed at least 3 course classmates
+
+### Analytical Summary
+Starring repositories acts as an essential signal mechanism within open-source DevSecOps ecosystems. It allows engineers to flag and monitor critical tools, track community trust levels, and ensure visibility for secure code infrastructure. Following security researchers, professors, and teammates fosters collaborative professional growth, establishing automated feeds to observe modern code patterns, patch notifications, and peer-reviewed architectural developments.
+
+## Bonus: CI Smoke Test
+
+- Workflow file: `.github/workflows/lab1-smoke.yml`
+- Trigger: `pull_request` on main
+- Run URL (must be green): https://github.com/kvakz/DevSecOps-Intro/actions/runs/27427220435
+- Workflow run duration: 25s
+- Curl response excerpt:
+  ```
+  HTTP/1.1 200 OK
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Feature-Policy: payment 'self'
+  X-Recruiting: /#/jobs
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 20
+  ETag: W/"14-+EBpZnfu193JzIOBjXsY1+KveN8"
+  Vary: Accept-Encoding
+  Date: Fri, 12 Jun 2026 15:59:21 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+  ```
