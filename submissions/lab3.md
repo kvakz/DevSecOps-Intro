@@ -20,7 +20,7 @@ Date:   Fri Jun 19 14:03:28 2026 +0300
 
 ### GitHub verification
 - Direct link to your most recent commit on GitHub: https://github.com/inno-devops-labs/DevSecOps-Intro/commit/77d8df8f756f3ef06261dac7cbc90aa334e76628
-- Screenshot of the Verified badge: 
+- Screenshot of the Verified badge: https://private-user-images.githubusercontent.com/57587564/610424813-33f6bc29-571b-4bba-890a-8ce8c7a1e568.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODE4Njk2OTIsIm5iZiI6MTc4MTg2OTM5MiwicGF0aCI6Ii81NzU4NzU2NC82MTA0MjQ4MTMtMzNmNmJjMjktNTcxYi00YmJhLTg5MGEtOGNlOGM3YTFlNTY4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjE5VDExNDMxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYwOGEyMDg2ZGExOWNkOTczMzBkNzJhODQ5MzFiODE3N2VlMjg1YzM1ZDU2NGVmYTU4MWY4NjRlYjc1M2RlNTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.fpmi0QzQkw9c4ys1zhdDBmGSa-vsR4aF0OsCDhAo1N8
 
 ### One-paragraph reflection (2-3 sentences)
 A forged-author commit allows an attacker to commit malicious code while impersonating a trusted contributor, enabling them to repudiate their actions or frame others. The Verified badge prevents this by cryptographically linking the commit to a trusted SSH key, making any unsigned or improperly signed impersonation attempt immediately visible as "Unverified" on GitHub.
